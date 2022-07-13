@@ -7,10 +7,11 @@
     text-align: center;
 }
 
-header {
-    background-image: url(image/bg-7.jpg);
-    height: 50vh;
+.hero-area {
+    background-image: url(image/bg-8.webp);
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
 }
