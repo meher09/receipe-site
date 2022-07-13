@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
-.text-center{
+
+.text-center {
     text-align: center;
+}
+
+header {
+    background-image: url(image/bg-7.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
 }
