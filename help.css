@@ -60,12 +60,16 @@
 
 .box {
     display: flex;
-    margin: -15% 5% 30%;
+    /* margin: -10% 5% 40%; */
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-eliment {
     background-color: azure;
+    width: 25%;
+    margin-top: -15%;
     margin: 25px;
 }
 
