@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .text-center {
@@ -14,13 +15,37 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 10px 20px;
 }
 
 .hero-title {
-    color: azure;
+    color: rgb(35, 69, 170);
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 14%;
+
 }
 
 .hero-paragraph {
-    color: greenyellow;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: red;
+    background-color: azure;
+    font-size: 16px;
+    font-weight: 800;
+    border: 1px whitesmoke solid;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+.hero-button a:hover {
+    background-color: skyblue;
 }
