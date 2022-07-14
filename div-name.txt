@@ -5,3 +5,11 @@ hero-button
 box-icon
 box-title
 box-paragraph
+highlight
+highlight-image
+highlight-blog
+
+featured
+featured-image
+featured-blog
+footer
