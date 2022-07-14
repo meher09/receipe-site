@@ -2,3 +2,6 @@ Hero-area
 hero-title
 hero-paragraph
 hero-button
+box-icon
+box-title
+box-paragraph

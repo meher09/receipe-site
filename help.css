@@ -10,18 +10,25 @@
 
 .hero-area {
     background-image: url(image/bg-8.webp);
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+}
+
+.hero-color {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+
 }
 
 .hero-title {
-    color: rgb(35, 69, 170);
+    color: red;
     font-size: 26px;
     font-weight: 700;
-    padding-top: 14%;
+    padding-top: 17%;
 
 }
 
@@ -47,5 +54,17 @@
 }
 
 .hero-button a:hover {
-    background-color: skyblue;
+    background-color: red;
+    color: whitesmoke;
+}
+
+.box {
+    display: flex;
+
+    text-align: center;
+}
+
+.box-icon {
+    height: 80px;
+
 }
