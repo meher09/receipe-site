@@ -9,7 +9,7 @@
 }
 
 .hero-area {
-    background-image: url(image/bg-8.webp);
+    background-image: url(image/bg-4.jpeg);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -60,8 +60,13 @@
 
 .box {
     display: flex;
-
+    margin: -15% 5% 30%;
     text-align: center;
+}
+
+.box-eliment {
+    background-color: azure;
+    margin: 25px;
 }
 
 .box-icon {
