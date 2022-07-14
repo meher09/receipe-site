@@ -34,8 +34,8 @@
 
 .hero-paragraph {
     color: white;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 700;
     padding-top: 1%;
     padding-bottom: 2%;
 }
@@ -61,19 +61,50 @@
 .box {
     display: flex;
     /* margin: -10% 5% 40%; */
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .box-eliment {
     background-color: azure;
     width: 25%;
-    margin-top: -15%;
-    margin: 25px;
+    margin: -5% 2% 2% 2%;
+    padding: 3%;
+
 }
 
 .box-icon {
     height: 80px;
+
+}
+
+.box-title,
+.box-icon {
+    padding-bottom: 15px;
+}
+
+.gallery {
+    background-color: azure;
+    padding: 80px;
+
+}
+
+.gallery-images {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 25%;
+    padding: 5px;
+}
+
+.gallery-paragraph,
+.gallery-title {
+    padding: 25px 20px;
+
 
 }
