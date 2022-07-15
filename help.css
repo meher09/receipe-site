@@ -143,7 +143,7 @@
 .blog {
 
     background-color: azure;
-    margin-top: 5%;
+    margin-top: 3%;
     padding-bottom: 4%;
     margin-bottom: 5%;
 
@@ -168,7 +168,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px ;
+    padding: 25px;
 
 
 }
@@ -184,11 +184,51 @@
     padding: 68px;
 
 }
-.highlight-blog{
+
+.highlight-blog {
     border: 1px black solid;
     padding: 68px;
     height: 116px;
 }
-.highlight-blog h2{
-    padding: 2;
+
+.highlight-blog h2 {
+    padding-bottom: 15px;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.featured-image,
+.featured-blog {
+    width: 50%;
+}
+
+.featured-image img {
+    width: 100%;
+    height: fit-content;
+}
+
+.featured-blog {
+    background-color: azure;
+    padding: 5.5% 0 11.4% 3%;
+
+    /* border: 1px white solid; */
+}
+
+.featured-blog h1,
+p {
+    padding-bottom: 10px;
+}
+.featured-blog .button{
+    text-align: left;
+    margin-top: 5%;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
 }
